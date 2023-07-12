@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weatherapi"
+version = "0.1.0"
+description = "Weather API"
+authors = ["Anton Tkachou <tk2007m@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+fastapi = {extras = ["all"], version = "~0.100.0"}
+aiofiles = "^23.1.0"
+async-lru = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
